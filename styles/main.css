@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
 /* BEGIN GLOBAL */
 
 :root {
@@ -10,6 +12,8 @@
   --gray-three: #ebebeb;
   --gray-four: #b2b2b2;
   --almost-black: #212121;
+
+  --font-main: "Merriweather", serif;
 }
 
 /* END GLOBAL */
