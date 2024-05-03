@@ -83,3 +83,14 @@ h2 {
 }
 
 /* END FOOTER */
+/* END SERVIE LIST */
+
+
+
+h3 {
+  margin-left: 2em; /* Moves h3 to the right */
+}
+
+#container{
+ display: flex;
+}
