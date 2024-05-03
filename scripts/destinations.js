@@ -5,6 +5,27 @@ const serviceDestinations = getServiceDestinations();
 const guests = getGuestList();
 const services = getServices();
 
+
+//click event
+
+document.addEventListener(
+    'click',
+    (clickEvent) => {
+        const itemClicked = clickEvent.target
+        if (itemClicked.dataset.type === 'destination') {
+            let guestCount = 0;
+            for (const guest of guests) {
+                if (guest.destinationId === parseInt(itemClicked.dataset.id)) {
+                    guestCount++;
+                }
+            }
+            if (guestCount === 1) {
+                window.alert(`There is ${guestCount} guest in the area`);
+            } else window.alert(`There are ${guestCount} guests in the area`)
+        }
+    }
+)
+
 //function to get services for a destination
 
 const findServices = (destination) => {
@@ -35,9 +56,10 @@ export const Destinations = () => {
     for (const destination of destinations) {
         const servicesOffered = findServices(destination)
 
-        html += `<div class="card_individual"><h3>${destination.name}</h3><div class="card_detail"><img src="${destination.picture}"/>
-                        <div class="card_services">Services Offered: ${servicesOffered}</div>
-                        </div></div>`
+        html += `<div class="card_individual"><h3 data-type="destination"
+                                            data-id="${destination.id}">${destination.name}</h3><div class="card_detail"><img src="${destination.picture}"/>
+                                            <div class="card_services">Services Offered: ${servicesOffered}</div>
+                                            </div></div>`
     }
     html += '</div>'
     return html;
