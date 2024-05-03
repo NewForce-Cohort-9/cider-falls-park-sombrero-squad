@@ -35,9 +35,9 @@ export const Destinations = () => {
     for (const destination of destinations) {
         const servicesOffered = findServices(destination)
 
-        html += `<div class="card_detail"><h3>${destination.name}</h3><img src="${destination.picture}"/>
+        html += `<div class="card_individual"><h3>${destination.name}</h3><div class="card_detail"><img src="${destination.picture}"/>
                         <div class="card_services">Services Offered: ${servicesOffered}</div>
-                        </div>`
+                        </div></div>`
     }
     html += '</div>'
     return html;

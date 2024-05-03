@@ -13,12 +13,20 @@
     width:  200px;
     height: 200px;
     object-fit: cover;
-    padding: 0.5em;
-    margin-right: 0.7rem;
+    padding: 0.5rem;
+}
+
+.card_individual {
+    border: solid;
 }
 
 .card_detail {
-    border: solid;
+    display: flex;
+    padding: 0.5rem;
+}
+
+.class_services li {
+    text-align: left;
 }
 
 /* END GLOBAL */
