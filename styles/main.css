@@ -5,6 +5,7 @@
 body {
   background-color: var(--dark-two);
   margin: 0;
+  font-family: var(--font-main);
 }
 
 h2 {
@@ -35,11 +36,13 @@ h2 {
 /* START DESTINATIONS */
 
 .card {
-    display: grid;
+    display: inline-grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: row;
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     text-align: center;
+    margin: 2em;
 }
 
 .card_detail img {
@@ -59,8 +62,24 @@ h2 {
     padding: 0.5rem;
 }
 
-.class_services li {
-    text-align: left;
+/* END DESTINATIONS */
+
+/* START FOOTER */
+.footer li {
+    list-style: none;
+    display: inline;
 }
 
-/* END DESTINATIONS */
+.footer li::after {
+    content: " |";
+}
+
+.footer li:last-child::after {
+    content: none;
+}
+
+.footer {
+    text-align: center;;
+}
+
+/* END FOOTER */

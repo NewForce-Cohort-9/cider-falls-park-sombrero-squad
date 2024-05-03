@@ -1,23 +1,23 @@
 const database = {
   destinations: [
     {
-      id: 1,
-      name: "Chamfort River",
-      picture:
-        "https://th.bing.com/th/id/R.960e6f8af48a3bf4e8a59db006dd09d6?rik=Uhd1%2fm%2fNTufSSw&riu=http%3a%2f%2fcdn.cdnparenting.com%2farticles%2f2018%2f09%2fPuducherry.webp&ehk=yEPW%2bJHD5W2Zqu6fbwjKgOwzTJ58%2bU7%2b%2bRKPeFWVYmk%3d&risl=&pid=ImgRaw&r=0",
-    },
+        id: 3,
+        name: "Lodge",
+        picture:
+          "https://cf.bstatic.com/xdata/images/hotel/max1024x768/383403441.jpg?k=0d70432ce7823f8c3db9ab7f5f71776f2c2d1ea51894802ef3932f147d0cdcfe&o=&hp=1",
+      },
     {
       id: 2,
       name: "Lost Wolf Hiking Trail",
       picture:
         "https://outthereoutdoors.com/wp-content/uploads/2021/05/Wolf-Trails-in-Newport-768x1024.jpeg",
     },
-    {
-      id: 3,
-      name: "Lodge",
-      picture:
-        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/383403441.jpg?k=0d70432ce7823f8c3db9ab7f5f71776f2c2d1ea51894802ef3932f147d0cdcfe&o=&hp=1",
-    },
+     {
+        id: 1,
+        name: "Chamfort River",
+        picture:
+          "https://th.bing.com/th/id/R.960e6f8af48a3bf4e8a59db006dd09d6?rik=Uhd1%2fm%2fNTufSSw&riu=http%3a%2f%2fcdn.cdnparenting.com%2farticles%2f2018%2f09%2fPuducherry.webp&ehk=yEPW%2bJHD5W2Zqu6fbwjKgOwzTJ58%2bU7%2b%2bRKPeFWVYmk%3d&risl=&pid=ImgRaw&r=0",
+      },
     {
       id: 4,
       name: "Gander River",
