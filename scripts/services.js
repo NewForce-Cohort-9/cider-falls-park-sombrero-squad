@@ -8,8 +8,19 @@ const services = getServices();
 const destinations = getDestinations();
 const serviceDestinations = getServiceDestinations();
 
+export const ServicesMain = () => {
+  return `
+    <div class="services__ctn">
+      <div class="services__intro">
+      
+      </div>
+      ${ServiceList()}
+    </div>
+  `;
+};
+
 export const ServiceList = () => {
-  let serviceHTML = `<ul class="services">`;
+  let serviceHTML = `<ul class="services__list">`;
 
   for (const service of services) {
     serviceHTML += `

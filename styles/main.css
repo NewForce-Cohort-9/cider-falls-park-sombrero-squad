@@ -30,4 +30,34 @@ h2 {
 
 /* START SERVICE LIST */
 
+.services__ctn {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.services__list {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.service {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-bottom: 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  background-color: var(--neutral-one);
+  font-family: var((--font-main));
+}
+
 /* END SERVIE LIST */
