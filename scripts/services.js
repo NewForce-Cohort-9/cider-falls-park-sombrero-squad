@@ -12,7 +12,11 @@ export const ServicesMain = () => {
   return `
     <div class="services__ctn">
       <div class="services__intro">
-      
+        <h2>Park Services</div>
+        <img 
+        class="services__intro-img"
+        src="https://img.freepik.com/free-photo/beautiful-shot-forest-with-tall-green-trees_181624-20615.jpg"/> 
+      </div>
       </div>
       ${ServiceList()}
     </div>
