@@ -93,6 +93,12 @@ h2 {
   background-color: var(--neutral-one);
   height: 1.5rem;
   width: auto;
+  cursor: pointer;
+}
+
+.service:hover {
+  background-color: var(--neutral-two);
+  color: #ffffff;
 }
 
 /* END SERVICE LIST */
