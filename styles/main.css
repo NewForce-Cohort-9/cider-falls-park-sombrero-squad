@@ -1,11 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("./navbar.css");
+
 /* BEGIN GLOBAL */
+body {
+  background-color: var(--dark-two);
+  margin: 0;
+}
+
+h2 {
+  font-family: var(--font-main);
+  font-size: 3rem;
+}
+
+:root {
+  --dark-one: #3a4a51;
+  --dark-two: #4a675a;
+  --neutral-one: #acb5a0;
+  --neutral-two: #3a4a51;
+  --gray-one: #f3f4f6;
+  --gray-two: #f5f5f5;
+  --gray-three: #ebebeb;
+  --gray-four: #b2b2b2;
+  --almost-black: #212121;
+
+  --font-main: "Merriweather", serif;
+}
 
 /* END GLOBAL */
 
-/* BEGIN NAVBAR */
+/* START SERVICE LIST */
 
-/* END NAVBAR */
-
-/* BEGIN SIDEBAR */
-
-/* END SIDEBAR */
+/* END SERVIE LIST */
