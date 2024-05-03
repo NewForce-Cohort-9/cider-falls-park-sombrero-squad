@@ -4,6 +4,7 @@ const allGuests = getGuestList()
 
 
 export const guestList = () => {
+    
     let html = "<ul>"
 
     for (const guest of allGuests) {
