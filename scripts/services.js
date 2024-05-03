@@ -46,7 +46,7 @@ document.addEventListener("click", (e) => {
       .map((dest) => dest.name);
 
     //combine any indexes with a comma (turns into a string like "One,Two")
-    const destinationNamesStr = matchingDestinationNames.join(",");
+    const destinationNamesStr = matchingDestinationNames.join(", ");
 
     //if string is truthy, use the string message, otherwise leave a default message.
     window.alert(
