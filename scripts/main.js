@@ -4,7 +4,6 @@ import { guestList } from "./guests.js";
 
 const destinations = document.querySelector(".destinations");
 const services = document.querySelector(".services");
-const navContainer = document.querySelector(".navbar");
 const guests = document.querySelector(".guests");
 
 services.innerHTML = ServicesMain();
