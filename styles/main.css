@@ -3,7 +3,9 @@
 
 /* BEGIN GLOBAL */
 body {
-  background-color: var(--dark-two);
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("https://images.unsplash.com/photo-1488330890490-c291ecf62571?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
   margin: 0;
   font-family: var(--font-main);
 }
@@ -33,7 +35,7 @@ h2 {
 /* START SERVICE LIST */
 
 .services {
-  margin: 6rem auto;
+  margin: 3rem auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,10 +74,9 @@ h2 {
 }
 
 .services__list {
-  display: grid;
-  grid-template-columns: auto auto;
-  column-gap: 1rem;
-  min-width: 4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
 }
 
 .service {
@@ -125,11 +126,20 @@ h2 {
 
 .card_individual {
   border: solid;
+  /* background-color: rgba(27, 24, 24, 0.4); */
+  background-color: rgba(184, 168, 168, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  color: var(--neutral-one);
 }
 
 .card_detail {
   display: flex;
   padding: 0.5rem;
+}
+
+.dest__service {
+  text-align: start;
 }
 
 /* END DESTINATIONS */
@@ -138,6 +148,7 @@ h2 {
 .footer li {
   list-style: none;
   display: inline;
+  color: var(--neutral-one);
 }
 
 .footer li::after {
@@ -161,4 +172,24 @@ h3 {
 
 #container {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
 }
+
+/* START SIDEBAR */
+
+.sidebar {
+  color: var(--neutral-one);
+  background-color: rgba(184, 168, 168, 0.1);
+  border-radius: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.guests {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* END SIDEBAR */
