@@ -13,19 +13,19 @@ const ServiceIntro = () => {
   <div class="services__intro">
   <h3>Park Services</h3>
   <div class="services__intro-grid">
-  <img 
+  <img
   class="services__intro-img"
   src="https://img.freepik.com/free-photo/beautiful-shot-forest-with-tall-green-trees_181624-20615.jpg"/>
-  <img 
+  <img
   class="services__intro-img"
-  src="https://outdoorbeginner.files.wordpress.com/2019/01/beginners-guide-to-grand-teton-hiking-itinerary-e1599526796664.jpg"/> 
-  <img 
+  src="https://outdoorbeginner.files.wordpress.com/2019/01/beginners-guide-to-grand-teton-hiking-itinerary-e1599526796664.jpg"/>
+  <img
   class="services__intro-img"
-  src="https://aceraft.com/wp-content/uploads/2019/04/zip-3.jpg"/> 
-  <img 
+  src="https://aceraft.com/wp-content/uploads/2019/04/zip-3.jpg"/>
+  <img
   class="services__intro-img"
-  src="https://res.cloudinary.com/simpleview/image/upload/v1685621548/clients/newyorkstate/dolinskysteve_Instagram_2829_ig_17877529189645357_ec679014-9e9a-43c9-8370-cdf53d0e0afb.jpg"/>  
-</div> 
+  src="https://res.cloudinary.com/simpleview/image/upload/v1685621548/clients/newyorkstate/dolinskysteve_Instagram_2829_ig_17877529189645357_ec679014-9e9a-43c9-8370-cdf53d0e0afb.jpg"/>
+</div>
   </div>
   `;
 };
@@ -33,7 +33,7 @@ const ServiceIntro = () => {
 export const ServicesMain = () => {
   return `
     <div class="services__ctn">
-    ${ServiceIntro()}
+    
     ${ServiceList()}
       </div>    
   `;
