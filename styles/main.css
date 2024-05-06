@@ -77,6 +77,8 @@ h2 {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
+  overflow: auto;
+  white-space: nowrap;
 }
 
 .service {
@@ -92,8 +94,7 @@ h2 {
   text-align: center;
   color: var(--almost-black);
   background-color: var(--neutral-one);
-  height: 1.5rem;
-  width: auto;
+  height: 1.25rem;
   cursor: pointer;
 }
 
